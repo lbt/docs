@@ -4341,7 +4341,9 @@ Returns:
 
 ### getBytes()
 
-Copies the string's characters to the supplied buffer.
+Copies the string's characters to the supplied buffer. 
+
+**Note:** the resulting string in buf will always be zero-terminated so at most len-1 characters will be copied.
 
 ```
 SYNTAX:
